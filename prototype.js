@@ -35,11 +35,10 @@ console.log(i8);
 console.log(amg);
 console.log(r8);
 
-g80.start('pinn', g80.name);
-g80.stop('pinn', g80.name);
-
-i8.start('jake', i8.name);
-i8.stop('jake', i8.name);
+g80.start('pinn', g80.name); // pinn G80에 탑승 완료. 시동 걸림
+g80.stop('pinn', g80.name);  // pinn G80에 하차 완료. 시동 꺼짐
+i8.start('jake', i8.name);   // jake I8에 탑승 완료. 시동 걸림
+i8.stop('jake', i8.name);    // jake I8에 하차 완료. 시동 꺼짐
 
 
 
